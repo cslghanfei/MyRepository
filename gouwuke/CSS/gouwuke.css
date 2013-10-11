@@ -1,0 +1,93 @@
+*{margin: 0px;padding: 0px;}
+ul,li{list-style: none;}
+ul,li,a{text-decoration: none;color: #000;}
+body{background-color: rgb(255,255,255);}
+
+#wrap_left{width: 676px;height: 2346px;margin-top: 5px;margin-left: 200px;float: left;}
+#tab_1{width: 666px;height: 27px;margin-top: 5px;float: left;background-color: #ccc;}
+.tit_l{width: 140px;height: 27px;float: left;background-image: url("../Imgs/wgtj.jpg");}
+.titbank{width: 525px;height: 26px;border-right: 1px solid rgb(170, 204, 238);border-top: 1px solid rgb(170, 204, 238);background-color: rgb(234, 240, 254);float: left;}
+#kang{width: 664px;height: 231px;float: left;border:1px solid rgb(170, 204, 238);border-bottom: 0px;}
+.kang_tab{width: 664px;height: 76px;float: left;border-bottom: 1px solid rgb(170, 204, 238);}
+.kang_a{width: 132px;height: 76px;display: block; float: left;border-right: 1px solid rgb(170, 204, 238);}
+.ka_t{width: 118px;height: 40px;float: left;margin-top: 5px;margin-left: 7px;cursor: pointer;}
+#ka_t1_pic1{width: 90px;height: 30px;display: block;float: left;margin-top: 5px;margin-left: 14px;background-image: url("../Imgs/1321595671181.jpg");}
+.ka_b{width: 100px;height: 15px;display: block;float: left;margin-left: 16px;margin-top: 5px; font-size: 14px;list-style-type: 26px;color: rgb(0, 99, 220);font-family: "宋体";text-align: center;}
+#ka_t1_pic2{width: 90px;height: 30px;display: block;float: left;margin-top: 5px;margin-left: 14px;background-image: url("../Imgs/1301293745273.gif");}
+#ka_t1_pic3{width: 90px;height: 30px;display: block;float: left;margin-top: 5px;margin-left: 14px;background-image: url("../Imgs/1348572210557.jpg");}
+#ka_t1_pic4{width: 90px;height: 30px;display: block;float: left;margin-top: 5px;margin-left: 14px;background-image: url("../Imgs/1301294155672.gif");}
+#ka_t1_pic5{width: 90px;height: 30px;display: block;float: left;margin-top: 5px;margin-left: 14px;background-image: url("../Imgs/1301294217112.gif");}
+
+#ka_t2_pic1{width: 90px;height: 30px;display: block;float: left;margin-top: 5px;margin-left: 14px;background-image: url("../Imgs/1301294196260.gif");}
+#ka_t2_pic2{width: 90px;height: 30px;display: block;float: left;margin-top: 5px;margin-left: 14px;background-image: url("../Imgs/1301294228827.jpg");}
+#ka_t2_pic3{width: 90px;height: 30px;display: block;float: left;margin-top: 5px;margin-left: 14px;background-image: url("../Imgs/1345616419283.jpg");}
+#ka_t2_pic4{width: 90px;height: 30px;display: block;float: left;margin-top: 5px;margin-left: 14px;background-image: url("../Imgs/1301294259970.gif");}
+#ka_t2_pic5{width: 90px;height: 30px;display: block;float: left;margin-top: 5px;margin-left: 14px;background-image: url("../Imgs/1345616611315.jpg");}
+
+#ka_t3_pic1{width: 90px;height: 30px;display: block;float: left;margin-top: 5px;margin-left: 14px;background-image: url("../Imgs/1345603018435.jpg");}
+#ka_t3_pic2{width: 90px;height: 30px;display: block;float: left;margin-top: 5px;margin-left: 14px;background-image: url("../Imgs/1345603490331.jpg");}
+#ka_t3_pic3{width: 90px;height: 30px;display: block;float: left;margin-top: 5px;margin-left: 14px;background-image: url("../Imgs/1301296998109.jpg");}
+#ka_t3_pic4{width: 90px;height: 30px;display: block;float: left;margin-top: 5px;margin-left: 14px;background-image: url("../Imgs/1316586574178.jpg");}
+#ka_t3_pic5{width: 90px;height: 30px;display: block;float: left;margin-top: 5px;margin-left: 14px;background-image: url("../Imgs/1369036544585.jpg");}
+
+#tab2_tit{background-image: url("../Imgs/zhsc.jpg");}
+.kang_tab2{width: 664px;height: 36px;float: left;border-bottom: 1px solid rgb(170, 204, 238);}
+.ktab2_sp{width: 132px;height: 36px;display: block; float: left;border-right: 1px solid rgb(170, 204, 238);}
+.kt2_a{width: 100px;height: 15px;display: block;float: left;margin-left: 16px;margin-top: 10px; font-size: 14px;list-style-type: 26px;color: rgb(0, 99, 220);font-family: "宋体";text-align: center;}
+.click{width: 100px;height: 32px;display: block;float: right;}
+#hrefmore1{width: 84px;height: 13px;display: block;float: left;margin-top: 5px;font-size: 12px;line-height: 22px;font-family: "宋体";color: rgb(73, 129, 176);text-align: center;}
+#kt3_ads{height:90px;border-bottom: 0px;background-image: url("../Imgs/664-902.jpg");cursor: pointer;}
+
+
+.b5{width: 664px;height: 138px;float: left;border:1px solid rgb(170, 204, 238); border-bottom: 0px;margin-top: 5px;}
+.ktit{width: 664px;height: 26px;border-bottom: 1px solid rgb(170, 204, 238);background-color: rgb(234, 240, 254);}
+.kiit_sp{width: 120px;height: 26px;display: block;float: left;margin-left: 10px;font-size: 14px;line-height: 26px;color: rgb(76, 86, 147);font-weight: 700;font-family: "宋体";}
+.b5_de{width: 664px;height: 36px;float: left;border-bottom: 1px solid rgb(170, 204, 238);}
+
+
+
+#wrap_right{width: 274px;height: 2067px;float: left;margin-top: 5px;}
+#bor{width: 272px;height: 143px;float: left;border:1px solid rgb(174, 200, 236);margin-top: 5px;background-color: rgb(234, 240, 254);}
+#r_column{width: 272px;height: 25px;float: left;background-color: rgb(0,0,255);}
+.rc_sp{width: 252px;height: 23px;display: block;float: left;margin-top: 2px; margin-left: 10px;font-size: 14px;line-height: 23px;font-weight: 700;color: rgb(255, 255, 255);font-family: "宋体";}
+.search{width: 264px;height: 27px;float: left;margin-top: 15px;margin-left: 4px;}
+#menu1{width: 120px;height: 27px;float: left;}
+.cur{width: 60px;height: 27px;display: block;float: left;font-size: 14px;line-height: 27px;font-weight: 700;font-family: "宋体";color: rgb(22, 125, 211);text-align: center;cursor: pointer;background-image: url("../Imgs/tab01.jpg");background-repeat: no-repeat;}
+.def{width: 60px;height: 26px;display: block;float: left;border-bottom: 1px solid rgb(180, 200, 246);font-size: 14px;line-height: 26px;font-family: "宋体";color: rgb(51, 51, 51);cursor: pointer;text-align: center;}
+.sealine{width: 144px;height: 26px;float: left;border-bottom: 1px solid rgb(180, 200, 246);}
+#main1{width: 262px;height: 50px;float: left;border-left: 1px solid rgb(180, 200, 246);border-right: 1px solid rgb(180, 200, 246);margin-left: 4px;background-color: rgb(243, 243, 243);}
+#seadot{width: 262px;height: 6px;float: left;background-color: rgb(243, 243, 243);border: 1px solid rgb(180, 200, 246);border-top: 0px;margin-left: 4px;}
+
+#main1_d{width: 258px;height: 32px;float: left;margin-top: 10px;margin-left: 4px;}
+#navigatekeyword{width: 164px;height: 32px;margin-left: 5px;display: block;float: left;font-size: 12px;line-height: 32px;font-family: "宋体";color: rgb(51, 51, 51);}
+#btnok{width: 80px;height: 32px;float: left;background-image: url("../Imgs/searbg.jpg");background-repeat: no-repeat;cursor: pointer;}
+#btnc{width: 56px;height: 32px;display: block;float: left;font-size: 14px;font-weight: 700;line-height: 32px;color: rgb(255, 255, 255);margin-left: 23px;text-align: center;}
+
+#rlist_1{width: 272px;height: 159px;margin-top: 5px;float: left;}
+.rlist1_a{width: 252px;height: 13px;display: block;float: left;font-size: 12px;line-height: 13px;font-family: "宋体";color: rgb(0, 99, 220);margin-left: 10px;margin-top: 5px;margin-bottom: 3px;}
+
+#tagCloud{width: 242px;height: 205px;margin-top: 10px;margin-left: 10px;float: left;}
+.color1_escapeint3{width: auto;height: auto;display: block;float: left;margin:3px 3px 3px 3px;font-size: 16px;line-height: 26px;font-weight: 700;font-family: "宋体";color: rgb(0, 99, 220);text-align: center;}
+.color5_escapeint14{width: auto;height: auto;display: block;float: left;margin:3px 3px 3px 3px;font-size: 14px;line-height: 26px;font-weight: 700;font-family: "宋体";color: rgb(0, 99, 220);text-align: center;}
+.color6_escapeint15{width: auto;height: auto;display: block;float: left;margin:3px 3px 3px 3px;font-size: 16px;line-height: 26px;font-family: "宋体";color: rgb(0, 99, 220);text-align: center;}
+.color2_escape1{width: auto;height: auto;display: block;float: left;margin:3px 3px 3px 3px;font-size: 12px;line-height: 26px;font-family: "宋体";color: rgb(0, 99, 220);text-align: center;}
+.color1_escape17{width: auto;height: auto;display: block;float: left;margin:3px 3px 3px 3px;font-size: 16px;line-height: 26px;font-weight: 700;font-family: "宋体";color: rgb(0, 99, 220);text-align: center;}
+.color2_escape2{width: auto;height: auto;display: block;float: left;margin:3px 3px 3px 3px;font-size: 12px;line-height: 26px;font-weight: 700;font-family: "宋体";color: rgb(0, 99, 220);text-align: center;}
+#dp_ads{width: 260px;height: 444px;margin-left: 12px;margin-top: 10px;float: left;}
+
+.dp_blk{width: 127px;height: 148px;float: left;}
+.dp_a_pic{width: 118px;height: 118px;border:1px solid rgb(221, 221, 221);display: block;float: left;cursor: pointer;}
+.dp_a_a{width: 118px;height: 28px;display: block;float: left;font-size: 12px;line-height: 28px;color: rgb(0, 99, 220);font-family: "宋体";text-align: center;}
+
+#gg_r{width: 274px;height: 100px;margin-top: 5px;float: left;cursor: pointer;}
+
+.bgdown{width: 272px;height: 143px;float: left;background-color: rgb(234, 240, 254);}
+.rbt{width: 260px;height: 30px;float: left;margin-left: 12px;font-size: 14px;line-height: 30px;font-weight: 700;font-family: "宋体";color: rgb(76, 86, 147);}
+.mix{width: 272px;height: 88px;float: left;}
+.rpic{width: 80px;height: 84px;border:1px solid rgb(221, 221, 221);float: left;margin-left: 12px;cursor: pointer;}
+.rlb{width: 163px;height: 88px;float: left;margin-left: 15px;}
+.rlb_blk{width: 163px;height: 22px;float: left;}
+.rb_tittle{width: auto;height: auto;display: block;float: left;font-size: 12px;line-height: 22px;font-weight: 700;font-family: "宋体";color: rgb(0, 99, 220);}
+.fgx{width: auto;height: auto;display: block;float: left;font-size: 12px;line-height: 22px;font-family: "宋体";color: rgb(183, 208, 228);margin-right: 5px;}
+.rb_content{width: auto;height: auto;display: block;float: left;font-size: 12px;line-height: 22px;font-family: "宋体";color: rgb(0, 99, 220);}
+.rb_bottom{width: 260px;height: 25px;float: left;margin-left: 12px;}
