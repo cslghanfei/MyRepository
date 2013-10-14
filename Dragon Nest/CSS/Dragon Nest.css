@@ -14,6 +14,13 @@ img{border:0px;}
 .line1{width: 100px;height: 46px;float: left;background-image: url("../Imgs/line.jpg");background-position: 0% 50%;background-repeat: no-repeat;}
 .main{width: 1002px;height: 2069px;float: left;background-color: transparent;background-image: url("../Imgs/main_bg.jpg");background-repeat: repeat-y;background-position: 0% 0%;}
 .main-content-gjs-bg{width: 1002px;height: 2036px;float: left;background-image: url("../Imgs/gjs-bg.jpg");background-position: 0% 0%;background-repeat: no-repeat;}
+.main-content-zs-bg{width: 1002px;height: 2036px;float: left;background-image: url("../Imgs/zs-bg.jpg");background-position: 0% 0%;background-repeat: no-repeat;display: none;}
+.main-content-ms-bg{width: 1002px;height: 2036px;float: left;background-image: url("../Imgs/ms-bg.jpg");background-position: 0% 0%;background-repeat: no-repeat;display: none;}
+.main-content-mfs-bg{width: 1002px;height: 2036px;float: left;background-image: url("../Imgs/mfs-bg.jpg");background-position: 0% 0%;background-repeat: no-repeat;display: none;}
+.main-content-xz-bg{width: 1002px;height: 2036px;float: left;background-image: url("../Imgs/xz-bg.jpg");background-position: 0% 0%;background-repeat: no-repeat;display: none;}
+.main-content-wn-bg{width: 1002px;height: 2036px;float: left;background-image: url("../Imgs/wn-bg.jpg");background-position: 0% 0%;background-repeat: no-repeat;display: none;}
+
+
 .location{width: 917px;height: 22px;float: left;margin-top: 10px;margin-left: 30px;}
 .gname{width: auto;height: 20px;display: block;float: left;font-size: 14px;line-height: 22.4px;color: rgb(255, 192, 0);font-family: "微软雅黑",Verdana,sans-serif;}
 .underline{width: auto;height: 20px;display: block;float: left;font-size: 14px;line-height: 22.4px;color: rgb(255, 192, 0);font-family: "微软雅黑",Verdana,sans-serif;text-decoration: underline;}
@@ -30,6 +37,11 @@ img{border:0px;}
 #role-head{width: 300px;height: 49px;float: left;}
 .rh_pic{width: 49px;height: 49px;display: block;float: left;margin-top: 15px;}
 #arrow{width: 13px;height: 14px;position: absolute;background-image: url("../Imgs/role_tab_arrow.png");background-repeat: no-repeat; top: 755px;left: 245px;}
+#arrow1{width: 13px;height: 14px;position: absolute;background-image: url("../Imgs/role_tab_arrow.png");background-repeat: no-repeat; top: 755px;left: 294px;}
+#arrow2{width: 13px;height: 14px;position: absolute;background-image: url("../Imgs/role_tab_arrow.png");background-repeat: no-repeat; top: 755px;left: 343px;}
+#arrow3{width: 13px;height: 14px;position: absolute;background-image: url("../Imgs/role_tab_arrow.png");background-repeat: no-repeat; top: 755px;left: 392px;}
+#arrow4{width: 13px;height: 14px;position: absolute;background-image: url("../Imgs/role_tab_arrow.png");background-repeat: no-repeat; top: 755px;left: 441px;}
+#arrow5{width: 13px;height: 14px;position: absolute;background-image: url("../Imgs/role_tab_arrow.png");background-repeat: no-repeat; top: 755px;left: 490px;}
 
 
 
@@ -95,5 +107,9 @@ img{border:0px;}
 #priv2{width: 47px;height: 47px;display: block;float: left;background-image: url("../Imgs/shgs2.gif");margin-right: 5px;}
 #priv3{width: 111px;height: 45px;display: block;float: left;background-image: url("../Imgs/img_cp_jubao_b.png");}
 
+
+
+#mengban{width: 1345px;height: 2540px;float: left;position: absolute;top: 0px;left: 0px;background-color: rgba(0,0,0,0.5);display: none;}
+#bigpic{width: 1024px;height: 562px;float: left;background-color: #eee;margin-top: 1358px;margin-left: 160px;}
 
 
