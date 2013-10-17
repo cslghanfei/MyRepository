@@ -1,0 +1,1122 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" type="text/css" href="CSS/nuomi.css">
+		<script type="text/javascript" src="JS/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="JS/nuomi.js"></script>
+	</head>
+	<body>
+		<div id="new_edition_hd">
+			<div id="hd_tp1">
+				<div id="change_city">
+					<span id="ucity">南京</span>
+					<a id="change" href="#">[切换城市]</a>
+				</div>
+
+				<div id="hd_login">
+					<a id="userlogin" href="#">登录</a>
+					<a id="userzhuce" href="#">注册</a>
+				</div>
+
+				<div id="DingYue">
+					<a id="dymenu" href="#">订阅</a>
+					<span id="dypic"></span>
+					<div id="dycon">
+						<div id="dyc1">
+							<span id="c1txt">请输入您的E-mail地址</span>
+						</div>
+						<div id="search">
+							<input id="searchtxt" placeholder="输入邮箱，订阅糯米网团购信息" type="text"/>
+							<a id="btnsearch" href="#">确定</a>
+						</div>
+					</div>
+				</div>
+
+				<div id="GuanZhu">
+					<a id="gzmenu" href="#">关注</a>
+					<span id="gzpic"></span>
+					<div id="gzcon">
+						<a id="gzc1" href="#"></a>
+						<a id="gzc2" href="#"></a>
+						<a id="gzc3" href="#"></a>
+						<a id="gzc4" href="#"></a>
+					</div>
+				</div>
+			</div>
+			<div id="hd_tp2">
+				<a id="home" href="#"></a>
+
+				<div id="hot_search">
+					<a id="hs1" href="#">电影</a>
+					<a id="hs2" href="#">自助餐</a>
+					<a id="hs3" href="#">KTV</a>
+					<a id="hs4" href="#">西餐</a>
+				</div>
+
+				<div id="main_search">
+					<input id="main_search_txt" placeholder="小吃快餐" type="text" />
+					<a id="btnmain_search" href="#"></a>
+				</div>
+			</div>
+		</div>
+
+		<div id="navbar">
+			<div id="nav-left">
+				<a id="nav_item1" class="nav_item_style" href="#">团 购</a>
+				<a id="nav_item2" class="nav_item_style" href="#">身 边</a>
+				<a id="nav_item3" class="nav_item_style" href="#">购 物</a>
+				<a id="nav_item4" class="nav_item_style" href="#">电 影</a>
+				<a id="nav_item5" class="nav_item_style" href="#">美 食</a>
+				<a id="nav_item6" class="nav_item_style" href="#">娱 乐</a>
+				<a id="nav_item8" class="nav_item_style" href="#">生 活</a>
+				<a id="nav_item9" href="#">酒店旅游</a>
+				<a id="nav_item10" href="#">电影订座</a>
+			</div>
+
+			<div id="nav-right">
+				<div id="mobiledown">
+					<a id="md_txt" href="#">下载手机版</a>
+				</div>
+				<div id="zuijin_tab">
+					<div id="zj_tab_t">
+						<a id="zjtt" href="#">最近浏览</a>
+						<span id="zjtt_pic"></span>
+					</div>
+					
+					<div id="zuijin_tab_content">
+						<a id="zj_tab_txt" href="#">暂无浏览记录</a>
+					</div>
+				</div>
+				<div id="shoppingCartNav">
+					<div id="scn_t">
+						<span id="sc_pic1"></span>
+						<a id="sc_atxt" href="#">购物车</a>
+						<span id="sctt_pic"></span>
+					</div>
+					
+					<div id="sc_tab_content">
+						<a id="sc_tab_txt" href="#">暂时没有商品</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="advs">
+			<div id="adv1"></div>
+			<div id="adv2"></div>
+			<div id="controlbtn">
+				<div id="btn1">1</div>
+				<div id="btn2">2</div>
+			</div>
+		</div>
+
+		<div id="filtBox">
+			<div id="hotFilt">
+				<span class="hft">热门：</span>
+				<a id="t1a" href="#">电影</a>
+				<span class="hft_sx">|</span>
+				<a id="t2a" href="#">自助餐</a>
+				<span class="hft_sx">|</span>
+				<a id="t3a" href="#">KTV</a>
+				<span class="hft_sx">|</span>
+				<a id="t4a" href="#">游泳健身</a>
+				<span class="hft_sx">|</span>
+				<a id="t5a" href="#">经济酒店</a>
+				<span class="hft_sx">|</span>
+				<a id="t6a" href="#">火锅</a>
+				<span class="hft_sx">|</span>
+				<a id="t7a" href="#">蛋糕甜品</a>
+				<span class="hft_sx">|</span>
+				<a id="t8a" href="#">聚会宴请</a>
+				<span class="hft_sx">|</span>
+				<a id="t9a" href="#">西餐</a>
+				<span class="hft_sx">|</span>
+				<a id="t10a" href="#">婚纱摄影</a>
+				<span class="hft_sx">|</span>
+				<a id="t11a" href="#">烧烤</a>
+			</div>
+
+			<div class="sortBox-selBox">
+				<span class="hft">本地：</span>
+				<a class="all" href="#">全部</a>
+				<div class="localtank">
+					<a id="localc1" href="#">今日新单</a>
+					<span class="count">98</span>
+				</div>
+				<div class="localtank">
+					<a id="localc2" href="#">美食</a>
+					<span class="count">972</span>
+				</div>
+				<div class="localtank">
+					<a id="localc3" href="#">休闲娱乐</a>
+					<span class="count">173</span>
+				</div>
+				<div class="localtank">
+					<a id="localc4" href="#">生活服务</a>
+					<span class="count">256</span>
+				</div>
+				<div class="localtank">
+					<a id="localc5" href="#">购物</a>
+					<span class="count">3178</span>
+				</div>
+				<div class="localtank">
+					<a id="localc6" href="#">酒店</a>
+					<span class="count">430</span>
+				</div>
+				<div class="localtank">
+					<a id="localc7" href="#">旅游</a>
+					<span class="count">50</span>
+				</div>
+				<div class="localtank">
+					<a id="localc8" href="#">抽奖</a>
+					<span class="count">3</span>
+				</div>
+			</div>
+			<div class="sortBox-selBox">
+				<span class="hft">区域：</span>
+				<a class="all" href="#">全部</a>
+				<div id="near_subway">
+					<a id="nb_txt" href="#">地铁附近</a>
+				</div>
+				<div class="localtank">
+					<a id="qy1" href="#">白下区</a>
+					<span class="count">417</span>
+				</div>
+				<div class="localtank">
+					<a id="qy2" href="#">江宁区</a>
+					<span class="count">342</span>
+				</div>
+				<div class="localtank">
+					<a id="qy3" href="#">鼓楼区</a>
+					<span class="count">341</span>
+				</div>
+				<div class="localtank">
+					<a id="qy4" href="#">玄武区</a>
+					<span class="count">257</span>
+				</div>
+				<div class="localtank">
+					<a id="qy5" href="#">秦淮区</a>
+					<span class="count">164</span>
+				</div>
+				<div class="localtank">
+					<a id="qy6" href="#">建邺区</a>
+					<span class="count">155</span>
+				</div>
+				<div class="localtank">
+					<a id="qy7" href="#">下关区</a>
+					<span class="count">104</span>
+				</div>
+				<div class="localtank">
+					<a id="qy8" href="#">栖霞区</a>
+					<span class="count">86</span>
+				</div>
+				<div class="localtank">
+					<a id="qy9" href="#">浦口区</a>
+					<span class="count">61</span>
+				</div>
+
+				<span class="qymore">更多</span>
+			</div>
+
+			<div class="sortBox-selBox">
+				<span class="hft">购物：</span>
+				<a class="all" href="#">全部</a>
+				<div class="localtank">
+					<a id="shopping1" href="#">家居家纺</a>
+					<span class="count">716</span>
+				</div>
+				<div class="localtank">
+					<a id="shopping2" href="#">服装/内衣</a>
+					<span class="count">691</span>
+				</div>
+				<div class="localtank">
+					<a id="shopping3" href="#">食品保健</a>
+					<span class="count">457</span>
+				</div>
+				<div class="localtank">
+					<a id="shopping4" href="#">鞋/箱包</a>
+					<span class="count">352</span>
+				</div>
+				<div class="localtank">
+					<a id="shopping5" href="#">个护化妆</a>
+					<span class="count">274</span>
+				</div>
+				<div class="localtank">
+					<a id="shopping6" href="#">数码家电</a>
+					<span class="count">214</span>
+				</div>
+				<div class="localtank">
+					<a id="shopping7" href="#">户外运动</a>
+					<span class="count">200</span>
+				</div>
+				<div class="localtank">
+					<a id="shopping8" href="#">母婴玩具</a>
+					<span class="count">171</span>
+				</div>
+				<div class="localtank">
+					<a id="shopping9" href="#">手表饰品</a>
+					<span class="count">169</span>
+				</div>
+				<span class="qymore">更多</span>
+			</div>
+
+			<div class="sortBox-selBox">
+				<span class="hft">排序：</span>
+				<div id="pxbox">
+					<a id="pxb1" href="#">默认</a>
+					<span id="pxb2" href="#">
+						<a class="pxbt" href="#">销量</a>
+					</span>
+					<span id="pxb3" href="#">
+						<a class="pxbt" href="#">折扣</a>
+					</span>
+				</div>
+				<div id="pricerange">
+					<span class="hft">价格：</span>
+					<div id="pricedrop">
+						<span id="quanbu">全部</span>
+						<div id="pdcontent">
+							<span class="pdcontent_c" id="pdcc1">全部</span>
+							<span class="pdcontent_c" id="pdcc2">50元以下</span>
+							<span class="pdcontent_c" id="pdcc3">50-100元</span>
+							<span class="pdcontent_c" id="pdcc4">100-200元</span>
+							<span class="pdcontent_c" id="pdcc5">200-300元</span>
+							<span class="pdcontent_c" id="pdcc6">300元以上</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="upProduct">
+			<div class="itemLeft">
+				<div class="border_inner ">
+					<img class="productpic" src="Imgs/304981-1373529791110.jpg">
+					<div id="production_information1">
+						<a class="pinfo_a" href="#">商圈：虹悦城 、新街口地区 、其他 </a>
+					</div>
+					</img>
+					<a class="indent">【29店通用】爱鸭黑鸭王</a>
+					<a class="information">10元现金抵用券！可累计使用，品种丰富，选择多多！</a>
+					<div class="deal_price_btn">
+						<div class="cpprice">
+							<span class="yuan">¥6.99</span>
+							<span class="cpvalue">价值¥10</span>
+						</div>
+						<div class="deal-btn"></div>
+					</div>
+					<div class="deal-people-address">
+						<div class="deal-people">
+							<span class="pnum">3478</span>
+							<span class="pdeal">人团购</span>
+						</div>
+					</div>
+				</div>
+
+			<div class="border_inner ">
+				<img class="productpic" src="Imgs/391103-2.jpg">
+				</img>
+				<a class="indent">百事礼盒限量抢购</a>
+				<a class="information">百事礼盒独家开售！内含独家限量明星文化衫1件+限量变温罐2罐！渴望礼盒，就现在！
+				</a>
+				<div class="deal_price_btn">
+					
+					<div class="deal-btn"></div>
+				</div>
+				<div class="deal-people-address">
+			
+				</div>
+			</div>
+
+			<div class="border_inner ">
+				<img class="productpic" src="Imgs/300696-1377692239803.jpg">
+				</img>
+				<a class="indent">【新街口地区】大华大戏院</a>
+				<a class="information">单人影票（含3D）！震撼的视听享受，豪华的观影体验！节假日通用</a>
+				<div class="deal_price_btn">
+					<div class="cpprice">
+						<span class="yuan">¥23.8</span>
+						<span class="cpvalue">价值¥120</span>
+					</div>
+					<div class="deal-btn"></div>
+				</div>
+				<div class="deal-people-address">
+					<div class="deal-people">
+						<span class="pnum">2356</span>
+						<span class="pdeal">人团购</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="border_inner ">
+				<img class="productpic" src="Imgs/369302-1378194811309.jpg">
+					<div id="production_information2">
+						<a class="pinfo_a" href="#">商圈：新街口地区 、珠江路沿线 </a>
+					</div>
+				</img>
+				<a class="indent">【2店通用】麦乐迪KTV</a>
+				<a class="information">欢唱券1张！多种时段可选，多种房型可升级，节假日通用！</a>
+				<div class="deal_price_btn">
+					<div class="cpprice">
+						<span class="yuan">¥39.9</span>
+						<span class="cpvalue">价值¥107</span>
+					</div>
+					<div class="deal-btn"></div>
+				</div>
+				<div class="deal-people-address">
+					<div class="deal-people">
+						<span class="pnum">602</span>
+						<span class="pdeal">人团购</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="border_inner ">
+				<img class="productpic" src="Imgs/315320-1374216686534.jpg">
+				</img>
+				<a class="indent">【8店通用】奶酪时光</a>
+				<a class="information">双人套餐！都市小资情怀，惬意生活从此开始，无需预约，提供免费WiFi！</a>
+				<div class="deal_price_btn">
+					<div class="cpprice">
+						<span class="yuan">¥99</span>
+						<span class="cpvalue">价值¥262</span>
+					</div>
+					<div class="deal-btn"></div>
+				</div>
+				<div class="deal-people-address">
+					<div class="deal-people">
+						<span class="pnum">1019</span>
+						<span class="pdeal">人团购</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="border_inner ">
+				<img class="productpic" src="Imgs/157429-94.jpg">
+				</img>
+				<a class="indent">品牌闪购包邮</a>
+				<a class="information">杏仁松塔1.19元！南极人蕾丝棉内衣套装45元！8000毫安移动电源89.9元！
+				</a>
+				<div class="deal_price_btn">
+					
+					<div class="deal-btn"></div>
+				</div>
+				<div class="deal-people-address">
+			
+				</div>
+			</div>
+
+			<div class="border_inner ">
+				<img class="productpic" src="Imgs/362954-1377690181844.jpg">
+				</img>
+				<a class="indent">【50店通用】大歌星KTV</a>
+				<a class="information">欢唱套餐，欢唱时段3选1！</a>
+				<div class="deal_price_btn">
+					<div class="cpprice">
+						<span class="yuan">¥19.9</span>
+						<span class="cpvalue">价值¥328</span>
+					</div>
+					<div class="deal-btn"></div>
+				</div>
+				<div class="deal-people-address">
+					<div class="deal-people">
+						<span class="pnum">2024</span>
+						<span class="pdeal">人团购</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="border_inner ">
+				<img class="productpic" src="Imgs/309073-1374124704674.jpg">
+				</img>
+				<a class="indent">【湖南路】好声音KTV</a>
+				<a class="information">下午档/黄金档（2选1）欢唱套餐！唱出属于你的好声音，另赠送爆米花1份！</a>
+				<div class="deal_price_btn">
+					<div class="cpprice">
+						<span class="yuan">¥15</span>
+						<span class="cpvalue">价值¥198</span>
+					</div>
+					<div class="deal-btn"></div>
+				</div>
+				<div class="deal-people-address">
+					<div class="deal-people">
+						<span class="pnum">386</span>
+						<span class="pdeal">人团购</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="border_inner ">
+				<img class="productpic" src="Imgs/371306-1377853292782.jpg">
+				</img>
+				<a class="indent">【新街口地区】米乐星世界KTV</a>
+				<a class="information">新街口尚品店欢唱券1张！可叠加使用，节假日通用，先进的点唱系统，高品质音响！</a>
+				<div class="deal_price_btn">
+					<div class="cpprice">
+						<span class="yuan">¥39.9</span>
+						<span class="cpvalue">价值¥195</span>
+					</div>
+					<div class="deal-btn"></div>
+				</div>
+				<div class="deal-people-address">
+					<div class="deal-people">
+						<span class="pnum">106</span>
+						<span class="pdeal">人团购</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="border_inner ">
+				<img class="productpic" src="Imgs/316646-1374216255379.jpg">
+				</img>
+				<a class="indent">【34店通用】易佰连锁酒店</a>
+				<a class="information">大床房入住1晚，入住舒心，9城联动！</a>
+				<div class="deal_price_btn">
+					<div class="cpprice">
+						<span class="yuan">¥79</span>
+						<span class="cpvalue">价值¥200</span>
+					</div>
+					<div class="deal-btn"></div>
+				</div>
+				<div class="deal-people-address">
+					<div class="deal-people">
+						<span class="pnum">2202</span>
+						<span class="pdeal">人团购</span>
+					</div>
+				</div>
+			</div>
+
+		</div>
+			<div class="itemRight">
+				<img id="itR1" src="Imgs/service7.png"></img>
+				<img id="itR2" src="Imgs/index_m.jpg"></img>
+				<img id="itR3" src="Imgs/1379482968056_home_page_Right_ad.jpg"></img>
+				<img id="itR4" src="Imgs/1379499435365home_page_right_ad.jpg"></img>
+				<div id="hotzt"></div>
+				<div class="recommend_item" id="ritem1">
+					<span class="pop_buy">
+						<span class="tpnum">807065</span>
+						<span class="pdeal">人团购</span>
+					</span>
+				</div>
+				<div class="recommend_item" id="ritem2">
+					<span class="pop_buy">
+						<span class="tpnum">2620631</span>
+						<span class="pdeal">人团购</span>
+					</span>
+				</div>
+				<div class="recommend_item" id="ritem3">
+					<span class="pop_buy">
+						<span class="tpnum">479318</span>
+						<span class="pdeal">人团购</span>
+					</span>
+				</div>
+				<div class="recommend_item" id="ritem4">
+					<span class="pop_buy">
+						<span class="tpnum">615347</span>
+						<span class="pdeal">人团购</span>
+					</span>
+				</div>
+				<div class="recommend_item" id="ritem5">
+					<span class="pop_buy">
+						<span class="tpnum">910234</span>
+						<span class="pdeal">人团购</span>
+					</span>
+				</div>
+
+				<div id="crazycj">
+					<div id="crazy_top">
+						<a id="tickhere" href="#">点击查看</a>
+					</div>
+					<div id="crazy_content">
+						<ul>
+							<li>
+								<a class="ccn" href="#">蔡依林百事礼盒免费送</a>
+								<a class="checkzj" href="#">查看抽奖结果</a>
+							</li>
+							<li>
+								<a class="ccn" href="#">罗志祥百事礼盒免费送</a>
+								<a class="checkzj" href="#">查看抽奖结果</a>
+							</li>
+							<li>
+								<a class="ccn" href="#">韩庚百事礼盒免费送</a>
+								<a class="checkzj" href="#">查看抽奖结果</a>
+							</li>
+							<li>
+								<a class="ccn" href="#">卡西欧自拍神器免费送</a>
+								<a class="checkzj" href="#">查看抽奖结果</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div id="hotsale"></div>
+				<div class="rm-item">
+					<span class="rm-item-tittle" href="#">
+						<a class="num" href="#">1</a>
+							<b>【蕉叶料理时尚餐厅】</b>
+							2-3人套餐！无需预约，午晚市通用
+					</span>
+					<div class="rm-img-price">
+						<img class="rmipic" src="Imgs/339019-1376379028626.jpg"></img>
+						<div class="rm-price">
+							<span class="rmpt">¥219</span>
+							<span class="rmpm">
+								<span style="color:#FF4D88;">62</span>
+								人团购
+							</span>
+							<span class="rmpm">
+								夫子庙地区
+							</span>
+						</div>
+					</div>
+				</div>
+				
+				<div class="rm-item">
+					<span class="rm-item-tittle" href="#">
+						<a class="num" href="#">2</a>
+							<b>【奶酪时光】</b>
+							双人套餐！提供免费WiFi！
+					</span>
+					<div class="rm-img-price">
+						<img class="rmipic" src="Imgs/315320-1374216686534-1.jpg"></img>
+						<div class="rm-price">
+							<span class="rmpt">¥99</span>
+							<span class="rmpm">
+								<span style="color:#FF4D88;">1019</span>
+								人团购
+							</span>
+							<span class="rmpm">
+								8店通用
+							</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="rm-item">
+					<span class="rm-item-tittle" href="#">
+						<a class="num" href="#">3</a>
+							<b>【天狮百盛大酒店】</b>
+							8-10人套餐！闻名遐尔的大型酒店！
+					</span>
+					<div class="rm-img-price">
+						<img class="rmipic" src="Imgs/356888-1377161392534.jpg"></img>
+						<div class="rm-price">
+							<span class="rmpt">¥368</span>
+							<span class="rmpm">
+								<span style="color:#FF4D88;">81</span>
+								人团购
+							</span>
+							<span class="rmpm">
+								湖南路
+							</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="rm-item">
+					<span class="rm-item-tittle" href="#">
+						<a class="num" href="#">4</a>
+							<b>【华仔发型】</b>
+							超值美发套餐1份
+					</span>
+					<div class="rm-img-price">
+						<img class="rmipic" src="Imgs/146059-1354266284999.jpg"></img>
+						<div class="rm-price">
+							<span class="rmpt">¥88</span>
+							<span class="rmpm">
+								<span style="color:#FF4D88;">1167</span>
+								人团购
+							</span>
+							<span class="rmpm">
+								4店通用
+							</span>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div id="Product-threeDeal">
+			<div class="border_inner ">
+					<img class="productpic" src="Imgs/146059-1354286226214.jpg">
+					</img>
+					<a class="indent">【4店通用】华仔发型</a>
+					<a class="information">超值美发套餐1份。风在发端，轻舞飞扬！4店通用</a>
+					<div class="deal_price_btn">
+						<div class="cpprice">
+							<span class="yuan">¥88</span>
+							<span class="cpvalue">价值¥938</span>
+						</div>
+						<div class="deal-btn"></div>
+					</div>
+					<div class="deal-people-address">
+						<div class="deal-people">
+							<span class="pnum">1167</span>
+							<span class="pdeal">人团购</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="border_inner ">
+					<img class="productpic" src="Imgs/212086-1378780646738.jpg">
+					</img>
+					<a class="indent">【中央门】幸福蓝海影城</a>
+					<a class="information">商厦店单人影票（含3D）！赠送10元卖品套餐抵用券</a>
+					<div class="deal_price_btn">
+						<div class="cpprice">
+							<span class="yuan">¥25.5</span>
+							<span class="cpvalue">价值¥100</span>
+						</div>
+						<div class="deal-btn"></div>
+					</div>
+					<div class="deal-people-address">
+						<div class="deal-people">
+							<span class="pnum">21333</span>
+							<span class="pdeal">人团购</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="border_inner ">
+					<img class="productpic" src="Imgs/393321-1379421309138.jpg">
+					</img>
+					<a class="indent">【全国】骥龙</a>
+					<a class="information">仅3天！多功能美食料理器！绞肉馅、切菜！升级四叶刀片，双驱动！食品级材质！包邮！</a>
+					<div class="deal_price_btn">
+						<div class="cpprice">
+							<span class="yuan">¥29.9</span>
+							<span class="cpvalue">价值¥139</span>
+						</div>
+						<div class="deal-btn"></div>
+					</div>
+					<div class="deal-people-address">
+						<div class="deal-people">
+							<span class="pnum">181</span>
+							<span class="pdeal">人团购</span>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="border_inner ">
+					<img class="productpic" src="Imgs/321656-1374570760581.jpg">
+					</img>
+					<a class="indent">【升州路】家富富侨</a>
+					<a class="information">足浴按摩套餐，专业技师，解除全身酸疼、疲劳，无需预约，节假日通用！</a>
+					<div class="deal_price_btn">
+						<div class="cpprice">
+							<span class="yuan">¥49.9</span>
+							<span class="cpvalue">价值¥88</span>
+						</div>
+						<div class="deal-btn"></div>
+					</div>
+					<div class="deal-people-address">
+						<div class="deal-people">
+							<span class="pnum">246</span>
+							<span class="pdeal">人团购</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="border_inner ">
+					<img class="productpic" src="Imgs/292413-1376104967911.jpg">
+					</img>
+					<a class="indent">【珠江路沿线】飞达商务KTV</a>
+					<a class="information">下午/黄金档/凌晨档3选1！K歌无限，欢乐无限</a>
+					<div class="deal_price_btn">
+						<div class="cpprice">
+							<span class="yuan">¥19.9</span>
+							<span class="cpvalue">价值¥236</span>
+						</div>
+						<div class="deal-btn"></div>
+					</div>
+					<div class="deal-people-address">
+						<div class="deal-people">
+							<span class="pnum">303</span>
+							<span class="pdeal">人团购</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="border_inner ">
+					<img class="productpic" src="Imgs/131626-1351927661693.jpg">
+					</img>
+					<a class="indent">【大厂】优力锋KTV</a>
+					<a class="information">大厂店下午档欢唱！5小时欢唱，3种包房，顶级豪华设施</a>
+					<div class="deal_price_btn">
+						<div class="cpprice">
+							<span class="yuan">¥39</span>
+							<span class="cpvalue">价值¥383</span>
+						</div>
+						<div class="deal-btn"></div>
+					</div>
+					<div class="deal-people-address">
+						<div class="deal-people">
+							<span class="pnum">1427</span>
+							<span class="pdeal">人团购</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="border_inner ">
+					<img class="productpic" src="Imgs/151115-1370500489811.jpg">
+					</img>
+					<a class="indent">【2店通用】V-MAX</a>
+					<a class="information">欢唱套餐，绝佳的视听盛宴，圣诞节、元旦通用，2店通用！</a>
+					<div class="deal_price_btn">
+						<div class="cpprice">
+							<span class="yuan">¥16.8</span>
+							<span class="cpvalue">价值¥150</span>
+						</div>
+						<div class="deal-btn"></div>
+					</div>
+					<div class="deal-people-address">
+						<div class="deal-people">
+							<span class="pnum">11760</span>
+							<span class="pdeal">人团购</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="border_inner ">
+					<img class="productpic" src="Imgs/309537-1373625240473.jpg">
+					</img>
+					<a class="indent">【珠江路沿线】悠漫汗蒸馆</a>
+					<a class="information">足疗、汗蒸养生套餐，专业服务，安心享受，释放你的疲惫，节假日通用！</a>
+					<div class="deal_price_btn">
+						<div class="cpprice">
+							<span class="yuan">¥38</span>
+							<span class="cpvalue">价值¥146</span>
+						</div>
+						<div class="deal-btn"></div>
+					</div>
+					<div class="deal-people-address">
+						<div class="deal-people">
+							<span class="pnum">68</span>
+							<span class="pdeal">人团购</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="border_inner ">
+					<img class="productpic" src="Imgs/265846-1369972122488.jpg">
+					</img>
+					<a class="indent">【三牌楼】东泉量贩式KTV</a>
+					<a class="information">超值欢唱套餐1份！可升级套餐，多种消费方式</a>
+					<div class="deal_price_btn">
+						<div class="cpprice">
+							<span class="yuan">¥19.9</span>
+							<span class="cpvalue">价值¥108</span>
+						</div>
+						<div class="deal-btn"></div>
+					</div>
+					<div class="deal-people-address">
+						<div class="deal-people">
+							<span class="pnum">183</span>
+							<span class="pdeal">人团购</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="border_inner ">
+					<img class="productpic" src="Imgs/177693-1359446147211.jpg">
+					</img>
+					<a class="indent">【2店通用】阿咪果amigo</a>
+					<a class="information">超值欢唱券！唱出真我，糯米券可升级，节假日通用！</a>
+					<div class="deal_price_btn">
+						<div class="cpprice">
+							<span class="yuan">¥29</span>
+							<span class="cpvalue">价值¥240</span>
+						</div>
+						<div class="deal-btn"></div>
+					</div>
+					<div class="deal-people-address">
+						<div class="deal-people">
+							<span class="pnum">1895</span>
+							<span class="pdeal">人团购</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="border_inner ">
+					<img class="productpic" src="Imgs/369395-1378196761257.jpg">
+					</img>
+					<a class="indent">【2店通用】麦乐迪KTV</a>
+					<a class="information">音乐美食套餐！节假日通用，中、晚餐通用，最高免费欢唱3.5小时！</a>
+					<div class="deal_price_btn">
+						<div class="cpprice">
+							<span class="yuan">¥298</span>
+							<span class="cpvalue">价值¥1769</span>
+						</div>
+						<div class="deal-btn"></div>
+					</div>
+					<div class="deal-people-address">
+						<div class="deal-people">
+							<span class="pnum">6</span>
+							<span class="pdeal">人团购</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="border_inner ">
+					<img class="productpic" src="Imgs/376287-1379327618212.jpg">
+					</img>
+					<a class="indent">【山西路】光阳演艺大舞台</a>
+					<a class="information">门票1张+饮料/啤酒1瓶！可升级套餐，精彩演出天天在，比春晚更有料的大型综艺晚会</a>
+					<div class="deal_price_btn">
+						<div class="cpprice">
+							<span class="yuan">¥29</span>
+							<span class="cpvalue">价值¥135</span>
+						</div>
+						<div class="deal-btn"></div>
+					</div>
+					<div class="deal-people-address">
+						<div class="deal-people">
+							<span class="pnum">2</span>
+							<span class="pdeal">人团购</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="border_inner ">
+					<img class="productpic" src="Imgs/394737-1379771646662.jpg">
+					</img>
+					<a class="indent">【东山镇】鸿禾KTV</a>
+					<a class="information">欢唱套餐！5款套餐可选，自由享受，属于自己的麦克风，尽情放纵，大声高歌！</a>
+					<div class="deal_price_btn">
+						<div class="cpprice">
+							<span class="yuan">¥45</span>
+							<span class="cpvalue">价值¥594</span>
+						</div>
+						<div class="deal-btn"></div>
+					</div>
+					<div class="deal-people-address">
+						<div class="deal-people">
+							<span class="pnum">3</span>
+							<span class="pdeal">人团购</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="border_inner ">
+					<img class="productpic" src="Imgs/362796-1377686382550.jpg">
+					</img>
+					<a class="indent">【大观天地】唛田KTV</a>
+					<a class="information">欢唱券1张！节假日通用，多可段可选，多种房型可升级！</a>
+					<div class="deal_price_btn">
+						<div class="cpprice">
+							<span class="yuan">¥19.9</span>
+							<span class="cpvalue">价值¥800</span>
+						</div>
+						<div class="deal-btn"></div>
+					</div>
+					<div class="deal-people-address">
+						<div class="deal-people">
+							<span class="pnum">59</span>
+							<span class="pdeal">人团购</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="border_inner ">
+					<img class="productpic" src="Imgs/341033-1378890049430.jpg">
+					</img>
+					<a class="indent">【全国】糯米优选</a>
+					<a class="information">双面羊羔绒外套！双面羊羔绒，韩版连帽款！4色可选，包邮！</a>
+					<div class="deal_price_btn">
+						<div class="cpprice">
+							<span class="yuan">¥49</span>
+							<span class="cpvalue">价值¥198</span>
+						</div>
+						<div class="deal-btn"></div>
+					</div>
+					<div class="deal-people-address">
+						<div class="deal-people">
+							<span class="pnum">1211</span>
+							<span class="pdeal">人团购</span>
+						</div>
+					</div>
+				</div>
+
+				<div id="pagenation">
+					<div id="container">
+						<div class="page-cur" id="checked">1</div>
+						<div class="page-cur">2</div>
+						<div class="page-cur">3</div>
+						<div class="page-cur">4</div>
+						<div class="page-cur">5</div>
+						<div class="page-cur">6</div>
+						<div class="page-cur">7</div>
+						<div class="page-cur">8</div>
+						<div id="page-next">下一页>></div>
+						<div id="page-last">末页</div>
+					</div>
+				</div>
+				<span id="totalnum">南京团购 共2016条</span>
+		</div>
+
+		<div id="jing_lv">
+			<div id="jlv_top">
+				<div id="jlv_top_pic"></div>
+
+				<div id="jlv_list">
+					<a id="jlv_more" href="#">更多>></a>
+					<a class="tj" href="#">最新</a>
+					<a class="tj" href="#">特惠</a>
+					<a class="tj" href="#">热销</a>
+					<a class="tj" href="#">推荐</a>
+				</div>
+				<div id="client_downdload">
+					<a id="cd_txt" href="#">下载手机版，随时秒杀特价房</a>
+				</div>
+			</div>
+			<div class="border_inner ">
+					<img class="productpic" src="Imgs/197182-1363142394143.jpg">
+					</img>
+					<a class="indent">【苜蓿园】桃子快捷酒店</a>
+					<a class="information">住宿1晚！3种房型任选，感受时尚！</a>
+					<div class="deal_price_btn">
+						<div class="cpprice">
+							<span class="yuan">¥99</span>
+							<span class="cpvalue">价值¥228</span>
+						</div>
+						<div class="deal-btn"></div>
+					</div>
+					<div class="deal-people-address">
+						<div class="deal-people">
+							<span class="pnum">255</span>
+							<span class="pdeal">人团购</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="border_inner ">
+					<img class="productpic" src="Imgs/280551-1371198828350.jpg">
+					</img>
+					<a class="indent">【2店通用】id99连锁酒店</a>
+					<a class="information">入住1晚！4种房型任选，环境优雅，服务周到！</a>
+					<div class="deal_price_btn">
+						<div class="cpprice">
+							<span class="yuan">¥79</span>
+							<span class="cpvalue">价值¥189</span>
+						</div>
+						<div class="deal-btn"></div>
+					</div>
+					<div class="deal-people-address">
+						<div class="deal-people">
+							<span class="pnum">248</span>
+							<span class="pdeal">人团购</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="border_inner ">
+					<img class="productpic" src="Imgs/177021-1359364007848.jpg">
+					</img>
+					<a class="indent">【夫子庙地区】速8酒店</a>
+					<a class="information">商务住宿套餐！贴心周到的服务，全球连锁，让你舒适归家！</a>
+					<div class="deal_price_btn">
+						<div class="cpprice">
+							<span class="yuan">¥118</span>
+							<span class="cpvalue">价值¥248</span>
+						</div>
+						<div class="deal-btn"></div>
+					</div>
+					<div class="deal-people-address">
+						<div class="deal-people">
+							<span class="pnum">422</span>
+							<span class="pdeal">人团购</span>
+						</div>
+					</div>
+				</div>
+		</div>
+
+		<div id="ft_nav">
+			<div id="ft_nav_top">
+				<a class="fnt" id="current" href="#">热门团购</a>
+				<a class="fnt" href="#">热门城市</a>
+				<a class="fnt" href="#">友情链接</a>
+				<a class="fnt" href="#">美食频道</a>
+				<a class="fnt" href="#">娱乐频道</a>
+				<a class="fnt" href="#">生活频道</a>
+			</div>
+			<div id="ft_nav_bottom">
+				<a class="fnb" href="#">南京美食团购</a>
+				<a class="fnb" href="#">南京生活服务团购</a>
+				<a class="fnb" href="#">南京本帮江浙菜团购</a>
+				<a class="fnb" href="#">南京休闲娱乐团购</a>
+				<a class="fnb" href="#">南京聚会宴请团购</a>
+				<a class="fnb" href="#">南京美发团购</a>
+				<a class="fnb" href="#">南京西餐团购</a>
+				<a class="fnb" href="#">南京蛋糕甜品团购</a>
+			</div>
+		</div>
+		<div id="footer">
+			<div id="ft_main">
+				<div class="ftm_blk">
+					<span class="ftmbct">用户帮助</span>
+					<span class="ftmbcc">玩转糯米</span>
+					<span class="ftmbcc">常见团购问题</span>
+					<span class="ftmbcc">南京往期团购</span>
+					<span class="ftmbcc">邮箱白名单设置</span>
+					<span class="ftmbcc">开放API</span>
+				</div>
+				<div class="ftm_blk">
+					<span class="ftmbct">获得更新</span>
+					<span class="ftmbcc">邮件订阅</span>
+					<span class="ftmbcc">糯米新浪微博</span>
+					<span class="ftmbcc">糯米腾讯微博</span>
+					<span class="ftmbcc">人人网公共主页</span>
+					<span class="ftmbcc">Rss订阅</span>
+				</div>
+				<div class="ftm_blk">
+					<span class="ftmbct">手机糯米网</span>
+					<span class="ftmbcc">糯米网触屏版</span>
+					<span class="ftmbcc">下载手机版</span>
+				</div>
+				<div class="ftm_blk">
+					<span class="ftmbct">商务合作</span>
+					<span class="ftmbcc">市场合作</span>
+					<span class="ftmbcc">友情链接</span>
+					<span class="ftmbcc">糯米商家</span>
+					<span class="ftmbcc">网站地图</span>
+					<span class="ftmbcc">商圈地图</span>
+					<span class="ftmbcc">廉政邮箱及电话</span>
+				</div>
+				<div class="ftm_blk">
+					<span class="ftmbct">公司信息</span>
+					<span class="ftmbcc">关于糯米</span>
+					<span class="ftmbcc">加入糯米</span>
+					<span class="ftmbcc">网购用户协议</span>
+					<span class="ftmbcc">媒体报道</span>
+					<span class="ftmbcc">节日徽标</span>
+				</div>
+				<div id="ftm_br">
+					<span id="telphone">
+						<span id="telnum">4006-888-887</span>
+					</span>
+					<span class="telnotice">客服电话 免长途费</span>
+					<span class="telnotice">周一至周日9:30-22:00</span>
+					<div id="telpic"></div>
+				</div>
+			</div>
+			<div id="foot_new_trust">
+				<span id="foot_new_logo"></span>
+			</div>
+			<div id="trust2">
+				<span id="trl"></span>
+				<span id="tr2"></span>
+				<span id="tr3"></span>
+			</div>
+			<div id="ft_in">
+				<span class="ft_in_c">©2013nuomi.com</span>
+				<span class="ft_in_c">京ICP证060807号</span>
+				<span class="ft_in_c">京公网安备110105006181号</span>
+				<span class="ft_in_c">工商注册号110108009499245</span>
+				<span class="ft_in_c">互联网药品信息服务资格证编号（京-经营性-2011-0009）</span>
+			</div>
+		</div> 
+	</body>
+</html>
